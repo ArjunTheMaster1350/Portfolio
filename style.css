@@ -144,7 +144,7 @@ button { cursor: pointer; }
 /* Main - Home */
 
 .main { margin-left: 100px; }
-.home { background: url('/Img/Gemini.png'); background-size: cover; background-position: center center; height: 100vh; }
+.home { background: url('https://i.postimg.cc/sxf2562Y/Gemini.png'); background-size: cover; background-position: center center; height: 100vh; }
 .home-container { position: relative; height: 100%; align-items: center; }
 .home-social { position: absolute; top: 1.8rem; left: 0; display: flex; align-items: center; column-gap: 3.5rem; }
 .home-social-follow { font-weight: var(--font-medium); position: relative; }
@@ -165,7 +165,7 @@ button { cursor: pointer; }
 /* Main - About */
 
 .about-container { grid-template-columns: repeat(2, 1fr); column-gap: 4rem; align-items: center; }
-.about-img { width: 30vmax; height: 17vmax; border-radius: .75rem; justify-self: center; background: url('/Img/Gemini.png'); background-size: cover; }
+.about-img { width: 30vmax; height: 17vmax; border-radius: .75rem; justify-self: center; background: url('https://i.postimg.cc/sxf2562Y/Gemini.png'); background-size: cover; }
 /* .about-img::before {content: ''; display:block; width: 30vmax; height: 17vmax; position: absolute;
     z-index: -1; border-radius: .75rem; transform: translate(10px, 10px); background: var(--skin-color);} */
 .about-heading { font-size: var(--h3-font-size); margin-bottom: var(--mb075); }
@@ -299,7 +299,7 @@ button { cursor: pointer; }
 .testimonial-description { margin-bottom: var(--mb1); font-size: var(--small-font-size); text-align: justify; }
 .testimonial-date { font-size: var(--normal-font-size); margin-bottom: var(--mb2); }
 .testimonial-profile { display: flex; align-items: center; column-gap: 1rem; }
-.testimonial-profile-img { width: 60px; height: 60px; border-radius: 3rem; background: url(/3dcartoonportraitpersonpracticinglawrelatedprofession.jpg); background-size: cover; background-position: center; }
+.testimonial-profile-img { width: 60px; height: 60px; border-radius: 3rem; background: url('https://i.postimg.cc/j559NybW/3d-cartoon-portrait-person-practicing-law-related-profession.jpg'); background-size: cover; background-position: center; }
 .testimonial-profile-name { font-size: var(--h3-font-size); font-weight: var(--font-medium); color: var(--title-color); }
 .testimonial-profile-detail { font-size: var(--small-font-size); display: block; }
 .testimonial-profile-data { display: flex; flex-direction: column; row-gap: .4rem; }
@@ -506,6 +506,7 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
     .services-container { grid-template-columns: max-content; }
     .services-content { padding-right: 3.5rem; }
 }
+
 
 
 
