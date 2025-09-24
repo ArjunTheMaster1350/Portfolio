@@ -165,7 +165,7 @@ button { cursor: pointer; }
 /* Main - About */
 
 .about-container { grid-template-columns: repeat(2, 1fr); column-gap: 4rem; align-items: center; }
-.about-img { width: 30vmax; height: 17vmax; border-radius: .75rem; justify-self: center; background: url('Gemini_Generated_Image_5f4zq5f4zq5f4zq5.png'); background-size: cover; }
+.about-img { width: 30vmax; height: 17vmax; border-radius: .75rem; justify-self: center; background: url('Gemini.png'); background-size: cover; }
 /* .about-img::before {content: ''; display:block; width: 30vmax; height: 17vmax; position: absolute;
     z-index: -1; border-radius: .75rem; transform: translate(10px, 10px); background: var(--skin-color);} */
 .about-heading { font-size: var(--h3-font-size); margin-bottom: var(--mb075); }
@@ -506,4 +506,5 @@ textarea.input { padding: 0.8rem 1.2rem; min-height: 140px; border-radius: .5rem
     .services-container { grid-template-columns: max-content; }
     .services-content { padding-right: 3.5rem; }
 }
+
 
